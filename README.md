@@ -7,10 +7,6 @@
 
  ## Setup
 
- Libaries: 
-    -pandas
-    -matplotlib
-
 1. Make sure you have installed MatplotLib, Pandas and Python3. 
 
 2. Open the DataViewer.py file. 
@@ -18,6 +14,8 @@
 3. Navigate to line 5 where the textfile is read into a dataframe and ensure that the name and path match the textfile you want to open. 
 
 4. Open the textfile and delete all of the rows including and above the BEGIN LOGGING line. 
-I think the code for the Arduino should be changed not to include all of these lines in the text file, it makes it a mission to open and load the data into useable forms. I tried playing around with skiprows, but the number of rows changes depending on how many events you have and the file would get loaded as only having one column. 
+Note: I think the code for the Arduino should be changed not to include all of these lines in the text file, it makes it a mission to open and load the data into useable forms. I tried playing around with skiprows, but the number of rows changes depending on how many events you have and the file would get loaded as only having one column. 
+
+[Delete lines from textfile.](delete_lines.jpeg)
 
 5. Then just run the program and you can view graphs of each sensor. 
