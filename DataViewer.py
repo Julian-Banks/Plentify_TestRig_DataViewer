@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 #Load data from the textfile. It is not saved as a csv, but read_csv was working better than read_table. 
 #I wanted to use skiprows so that it was not necceassry manually delete rows from the textfile. 
 # However, it would still load up files as having a single column instead of reading them in correctly. Also the number of events changes the number of rows. 
-data = pd.read_csv("LOG00241.TXT")#skiprows=[0]
+data = pd.read_csv("LOG00242.TXT")#skiprows=[0]
 
 #the last line of the textfile is "END LOGGING" and causes some type problems so I remove it here. (could also be removed from arduino code.)
 data = data.truncate(after=(len(data.index)-2))

@@ -19,3 +19,13 @@ Note: I think the code for the Arduino should be changed not to include all of t
 ![Delete lines from textfile.](delete_lines.png)
 
 5. Then just run the program and you can view graphs of each sensor. 
+
+Graph for water and energy usage. 
+![General Stats](stats.png)
+
+Graphs for external temperature sensors.
+![External Temp](external_temp.png)
+
+Graphs for internatl temperature sensors.
+![Internal Temp](boilers.png)
+
