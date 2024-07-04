@@ -26,6 +26,6 @@ Graph for water and energy usage.
 Graphs for external temperature sensors.
 ![External Temp](external_temp.png)
 
-Graphs for internatl temperature sensors.
+Graphs for internal temperature sensors.
 ![Internal Temp](boilers.png)
 
