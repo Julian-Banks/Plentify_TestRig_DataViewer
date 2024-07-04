@@ -5,7 +5,7 @@
  It is a bit clunky to use. Additionally, the textfile that the arduino outputs isn't in an easy-to-use format.
 
 
- ##Setup
+ ## Setup
 
  Libaries: 
     -pandas
