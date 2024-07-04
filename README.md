@@ -16,6 +16,6 @@
 4. Open the textfile and delete all of the rows including and above the BEGIN LOGGING line. 
 Note: I think the code for the Arduino should be changed not to include all of these lines in the text file, it makes it a mission to open and load the data into useable forms. I tried playing around with skiprows, but the number of rows changes depending on how many events you have and the file would get loaded as only having one column. 
 
-[Delete lines from textfile.](delete_lines.png)
+![Delete lines from textfile.](delete_lines.png)
 
 5. Then just run the program and you can view graphs of each sensor. 
